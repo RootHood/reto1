@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    background-color: rgb(204, 204, 204);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.parent-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 481px;
+    height: 1004px;
+    margin-top: 5%;
+}
+    .dialog {
+        background-color: rgb(247, 247, 247);
+        margin-top: 10px;
+        width: 100%;
+        border: 1px solid #ccc;
+        border-radius: 15px;
+        padding: 10px;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    .dialog:first-child {
+        margin-top: 0px;
+    }
+        .cancel-icon {
+            color: blueviolet;
+            font-size: 2.2rem;
+            align-self: flex-end;
+        }
+        .info-icon {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-self: center;
+        }
+            .text-icon {
+                font-size: 2rem;
+            }
+            .exclamation-icon {
+                background-color: rgb(255, 255, 180);
+                color: orange;
+            }
+            .check-icon {
+                background-color: rgb(175, 255, 175);
+                color: green;
+            }
+            .error-icon {
+                background-color: rgb(253, 193, 193);
+                color: red;
+            }
+        .message-title {
+            font-size: 2rem;
+            font-weight: bold;
+            align-self: center;
+            margin-top: 20px;
+        }
+        .message-subtitle {
+            margin-top: 10px;
+            align-self: center;
+            font-size: 15px;
+        }
+        .buttons {
+            margin-top: 15px;
+            align-self: center;
+        }
+            .btn-action {
+                font-size: 1.3rem;
+                padding: 10px;
+                border-radius: 5px;
+            }
+            .btn-action-background {
+                color: white;
+                border: 0px solid transparent;
+            }
+            .btn-action-outline {
+                border: 1px solid blueviolet;
+                background-color: transparent;
+                color: blueviolet;
+            }
+.back-blue {
+    background-color:blueviolet;
+}
